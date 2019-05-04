@@ -3,7 +3,7 @@
 import logging
 import unittest
 
-from settings import init_logging, get_path_to_output
+from scripts.settings import init_logging, get_path_to_output
 
 log = logging.getLogger(__name__)
 
