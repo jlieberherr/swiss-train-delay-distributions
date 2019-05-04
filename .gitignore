@@ -10,4 +10,6 @@ target
 /tests/output/
 *.pyc
 *.log
+/venv/
+/.ipynb_checkpoints/
 
