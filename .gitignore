@@ -7,9 +7,9 @@ target
 *.iml
 /.idea/
 /output/
-/tests/output/
 *.pyc
 *.log
 /venv/
 /.ipynb_checkpoints/
+/.pytest_cache/
 
