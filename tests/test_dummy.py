@@ -3,15 +3,14 @@
 import logging
 import unittest
 
-from scripts.settings import init_logging, get_path_to_output
+from scripts.preprocessing import run_preprocessing
 
 log = logging.getLogger(__name__)
 
 
 class TestCase(unittest.TestCase):
     def test_something(self):
-        init_logging(get_path_to_output(), "test.log")
-        log.info("a log entry")
+        run_preprocessing()
         self.assertTrue(True)
 
 
